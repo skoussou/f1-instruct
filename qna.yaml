@@ -1,0 +1,147 @@
+version: 3
+domain: f1_technique
+created_by: skoussou,alopezme
+document_outline: 2025 Formula 1 Car Technical Regulations 
+seed_examples:
+  - context: |
+      Despite near universal health insurance coverage in Massachusetts, residents report challenges affording necessary health care services. To present a more
+      complete picture of health care costs and corresponding challenges from the consumer perspective, this new chapter combines affordability metrics across multiple CHIA data streams. Massachusetts residents face growing
+      health care affordability concerns due to rising healthcare costs, increased demand for health care services, and growing enrollment in high deductible health plans
+      (HDHPs). Metrics presented in this chapter represent some, but not all, of the financial impact of health care costs on Massachusetts residents and employers. As
+      policymakers and other stakeholders chart the path forward amid a changed health care landscape, healthcare affordability remains a critical consideration in
+      examining the performance of the Massachusetts healthcare system.
+    questions_and_answers:
+      - question: What are the major contributors to Massachusetts residents affording health care services?
+        answer: |
+          Major contributors for Massachusetts residents to afford health services are due to rising health care costs, increased demand for health care services, and growing enrollment in high deductible health plans (HDHPs).
+      - question: What are current considerations for Policy Makers in support of Massachusetts Residents?
+        answer: |
+          Considerations for policymakers and other stakeholders are to chart the path forward amid a changed health care landscape, health care affordability remains a critical consideration in examining the performance of the Massachusetts health care system.
+      - question: How do policy makers evaluate the current health care challenges?
+        answer: |
+          Policy makers evaluate the current health challenge by gathering a complete picture of health care costs and corresponding challenges from the consumer perspective, this new chapter combines affordability metrics across multiple CHIA data streams.
+
+  - context: |
+      CHIA collects and analyzes data on enrollment, member cost-sharing, and the cost of coverage for Massachusetts private commercial health insurance. Payers submit data by market sector, product type (HMO, PPO, POS), funding type
+      (self- or fully-insured), and benefit design type (HDHP, tiered network, limited network). Unless otherwise noted, data citing “Payer-reported data to CHIA” in this chapter highlights membership and cost trends for members covered under
+      private commercial contracts established in Massachusetts (which may include non-Massachusetts residents) and includes both fully- and self-insured members.
+      Member cost-sharing includes all medical expenses allowed under a member’s plan but not paid for by the payer, employer, or state cost-sharing reduction (CSR) subsidies(e.g., deductibles, copays, and co-insurance). Cost-sharing
+      is based on service utilization, while deductible and out-of-pocket maximums are set at enrollment before actual claims experiences. Figures in this chapter include members who incurred little to no medical costs as well as those who may
+      have experienced substantial medical costs. They do not include out-of-pocket payments for goods and services not covered by the members’ health insurance policies (e.g., over-the-counter medicines, standalone vision and
+      dental care). Member cost-sharing also does not account for employer offsets, such as health reimbursement arrangements or health savings accounts.
+    questions_and_answers:
+      - question: What types of expenses are included in member cost-sharing?
+        answer: |
+          Member cost-sharing includes deductibles, copays, and co-insurance, which are medical expenses allowed under a member's plan but not paid for by the payer, employer, or state cost-sharing reduction (CSR) subsidies.
+      - question: Why are out-of-pocket payments for goods and services not covered by health insurance policies excluded from member cost-sharing?
+        answer: |
+          Out-of-pocket payments for goods and services not covered by health insurance policies, such as over-the-counter medicines, standalone vision and dental care, are excluded from member cost-sharing because they are not related to medical expenses covered by the health insurance policy.
+      - question: Are employer offsets, such as health reimbursement arrangements or health savings accounts, taken into account when calculating member cost-sharing?
+        answer: |
+          No, employer offsets, such as health reimbursement arrangements or health savings accounts, are not taken into account when calculating member cost-sharing. This means that these types of payments are not included in the member's out-of-pocket expenses and are not considered when determining their cost-sharing obligations.
+
+  - context: |
+      Private commercial insurance is administered on either a
+      fully-insured or self-insured contract-basis, with employers
+      facing different sets of costs for each funding method.
+      The cost for providing fully-insured coverage is measured
+      by the monthly premium, in exchange for which the payer
+      assumes all financial risk associated with members’ eligible
+      medical expenses during the contract period. For self-
+      insured coverage, the employer retains the financial risk for
+      medical claims costs while contracting with a payer or third
+      party administrator to design and administer health plans for
+      its employees and their dependents.
+      For fully-insured coverage, CHIA reports the full premium
+      amount collected by health plans, inclusive of member
+      contributions, employer contributions (for employer plans),
+      and federal and state premium credits and subsidies (for
+      plans sold to individual purchasers). Fully-insured premiums
+      are reported net of Medical Loss Ratio (MLR) rebates. In
+      2021, the most recent year for which survey data was
+      available, Massachusetts employees contributed 25-29%,
+      on average, to their premium coverage costs.
+      Reported premiums reflect a range of enrollment and plan design
+      decisions by members and employers, including changing
+      plans during open enrollment to mitigate anticipated
+      premium increases.
+
+    questions_and_answers:
+      - question: What are the two main ways private commercial insurance is administered in Massachusetts?
+        answer: |
+          Private commercial insurance is administered on either a fully-insured or self-insured contract-basis.
+      - question: Who assumes the financial risk for medical claims costs in a self-insured coverage arrangement?
+        answer: |
+          In a self-insured coverage arrangement, the employer retains the financial risk for medical claims costs.
+      - question: What is reported by CHIA for fully-insured coverage, and what is deducted from it?
+        answer: |
+          For fully-insured coverage, CHIA reports the full premium amount collected by health plans, inclusive of member contributions, employer contributions, and federal and state premium credits and subsidies. Fully-insured premiums are reported net of Medical Loss Ratio (MLR) rebates.
+
+  - context: |
+      The MHIS examines health care affordability by asking
+      residents about any difficulties paying family medical bills in
+      the past 12 months, any medical debt held by themselves
+      or family members in the household, the amount and share
+      of family income spent on out-of-pocket health care costs
+      in the past 12 months, and whether the resident or their
+      family chose to forgo health care that the resident felt was
+      needed in the past 12 months due to the cost of that care.
+      In the MHIS, out-of-pocket health care costs include direct
+      spending by residents and their families on deductibles,
+
+      copays, and coinsurance for benefits covered by their health
+      insurance, and their spending on medical, dental, and vision
+      services not covered by insurance. Residents were also
+      asked to include out-of-pocket costs owed for care received
+      over the past 12 months but that had not yet been paid. The
+      MHIS does not include premiums for health insurance in the
+      out-of-pocket calculation. In addition, the survey asks private
+      commercially insured residents whether their insurance
+      plan is a HDHP, which is defined by the Internal Revenue
+      Service as having an annual deductible over $1,400 for single
+      coverage or $2,800 for family coverage in 2021.
+
+    questions_and_answers:
+      - question: What types of out-of-pocket health care costs are included in the MHIS calculation?
+        answer: |
+          The MHIS includes direct spending by residents and their families on deductibles, copays, and coinsurance for benefits covered by their health insurance, as well as spending on medical, dental, and vision services not covered by insurance.
+      - question: How does the MHIS define a High-Deductible Health Plan (HDHP)?
+        answer: |
+          According to the MHIS, an HDHP is defined by the Internal Revenue Service as having an annual deductible over $1,400 for single coverage or $2,800 for family coverage in 2021.
+      - question: What is the purpose of asking private commercially insured residents if their insurance plan is an HDHP in the MHIS survey?
+        answer: |
+          The purpose is to identify whether the resident's insurance plan meets the IRS definition of an HDHP, which may affect the calculation of out-of-pocket health care costs and affordability issues.
+
+  - context: |
+      Insurance purchasers (members and/or employers)
+      compare and balance health plan premiums with underserved
+
+      potential out-of-pocket costs (“member cost-
+      sharing”). Some may choose plans with lower
+
+      premiums and higher deductibles, lowering upfront
+      costs but leaving members at risk of high medical
+      bills in the future. Others may prefer higher monthly
+      premiums in exchange for plans that cover a
+      greater percentage of costs when medical services
+      are used. CHIA’s “benefit level” metric quantifies
+
+      the percentage of medical costs covered by fully-
+      insured commercial health plans.
+
+    questions_and_answers:
+      - question: What is the benefit level metric, and how does it relate to the percentage of medical costs covered by fully-insured commercial health plans?
+        answer: |
+          The benefit level metric is a measure of the percentage of medical costs covered by fully-insured commercial health plans. It quantifies the amount of coverage provided by the insurance plan, with higher benefit levels indicating greater coverage.
+      - question: How do employees of smaller firms compare to employees of larger firms in terms of their total monthly premium payments?
+        answer: |
+          According to survey data, employees of smaller firms are responsible for paying a larger proportion of their total monthly premiums, on average, than employees of larger firms.
+      - question: What is the difference between unsubsidized individual-purchaser premiums and employer-sponsored coverage, and how do ConnectorCare base premiums fit into this comparison?
+        answer: |
+          Unsubsidized individual-purchaser premiums are higher than employer-sponsored coverage, with unsubsidized individual-purchaser premiums increasing 5.5% between 2021 and 2022 to $523 PMPM. ConnectorCare base premiums (before subsidies) were the lowest of any market sector in 2022 ($470 PMPM) but also increased the fastest at 8.3%.
+
+document:
+  repo: https://github.com/eformat/health-care.git
+  commit: 2f241f8e6a95fe7b00d843afd5f118a8d0386eb7
+  patterns:
+    - 2024-Annual-Report.md
